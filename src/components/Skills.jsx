@@ -9,6 +9,13 @@ import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import Cv from '../assets/cv.png';
+import Flask from '../assets/flask.png';
+import Ml from '../assets/ml.png';
+import Python from '../assets/python.png';
+import Tensor from '../assets/tensor.png';
+import Postman from '../assets/postman.png';
+import Git from '../assets/git.png';
 
 const Skills = () => {
   return (
@@ -56,6 +63,34 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
                   <p className='my-4'>FIREBASE</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Cv} alt="HTML icon" />
+                  <p className='my-4'>OPEN CV</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Flask} alt="HTML icon" />
+                  <p className='my-4'>FLASK</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Ml} alt="HTML icon" />
+                  <p className='my-4'>MACHINE LEARNING</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
+                  <p className='my-4'>PYTHON</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Tensor} alt="HTML icon" />
+                  <p className='my-4'>TENSOR FLOW</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Postman} alt="HTML icon" />
+                  <p className='my-4'>POSTMAN</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Git} alt="HTML icon" />
+                  <p className='my-4'>GIT</p>
               </div>
           </div>
       </div>
